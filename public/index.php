@@ -1,10 +1,10 @@
 <?php
-
+// echo xdebug_info();
 function showMessage(string $text): void
 {
     echo $text;
 }
 
-$text = 'Hello World3!';
+$text = 'Hello World!';
 
 showMessage($text);
